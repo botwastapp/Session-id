@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: GOATCR7-Bot-V1-pair-site
+    env: docker
+    plan: free
+    branch: main
+    repo: https://github.com/botwastapp/GOATCR7-Bot-V1 
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
